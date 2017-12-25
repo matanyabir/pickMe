@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pick Me Dashboard</title>
+	<link rel="STYLESHEET" type="text/css" href="css/reset.css" />
+	<link rel="STYLESHEET" type="text/css" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="map"></div>
+<div id="panel">
+<img id="logo" src="assets/logo.png"/>
+<div id="waiting" class="item red"><span id="waiting_c">0</span> passengers are waiting</div>
+<div id="driving" class="item"><span id="driving_c">0</span> passengers on the vehicles</div>
+<div id="driving_v" class="item"><span id="driving_v_c">0</span> vehicle driving</div>
+<div id="pending" class="item"><span id="pending_c">0</span> vehicle pending</div>
+<div id="line" class="item"></div>
+<div id="cost_s" class="item">Total revenue:</div>
+<div id="cost_b" class="red">$<span id="cost_c">0</span></div>
+<div id="time"></div>
+	<svg id="ff_button" width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs></defs>
+	<g id="matanya" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-179.000000, -853.000000)">
+		<g id="ffc" transform="translate(179.000000, 853.000000)" fill-rule="nonzero">
+			<path d="M11.5965515,6.38793299 L2.7903209,0.31366451 C2.2439668,-0.0628881471 1.53597048,-0.103412309 0.950924298,0.208381469 C0.365878121,0.520175248 -0.000132964971,1.13307958 1.60528141e-05,1.80072609 L1.60528141e-05,13.9420618 C-0.00278894879,14.611001 0.362193971,15.2263546 0.947758577,15.5399359 C1.53332318,15.8535172 2.24290807,15.8136157 2.7903209,15.4363246 L11.5965515,9.36205614 C12.0836266,9.02664706 12.375,8.47003956 12.375,7.87499456 C12.375,7.27994956 12.0836266,6.72334207 11.5965515,6.38793299 Z M10.7901463,8.18824967 L1.98748383,14.2409143 C1.87804198,14.3155623 1.73668586,14.3230886 1.62006706,14.2604768 C1.50344826,14.197865 1.4306509,14.0753613 1.43085012,13.9420618 L1.43085012,1.80792735 C1.43120106,1.67521026 1.50387362,1.5534484 1.61996286,1.49107162 C1.67256561,1.4624195 1.73145881,1.44756223 1.79123477,1.44786402 C1.86277324,1.44876465 1.93239144,1.47134555 1.99105199,1.51267542 L10.7901463,7.576142 C10.8872589,7.64327033 10.9453141,7.75441094 10.9453141,7.87319425 C10.9453141,7.99197755 10.8872589,8.10311817 10.7901463,8.1702465 L10.7901463,8.18824967 Z" id="Shape"></path>
+			<path d="M18,15.0248619 L18,0.725138122 C18,0.324655395 17.6222403,0 17.15625,0 C16.6902597,0 16.3125,0.324655395 16.3125,0.725138122 L16.3125,15.0248619 C16.3125,15.4253446 16.6902597,15.75 17.15625,15.75 C17.6222403,15.75 18,15.4253446 18,15.0248619 Z" id="Shape"></path>
+		</g>
+	</g>
+</svg>
+<span id="ff_title"></span>
+</div>
+<!-- external libraries -->
+<script src="js/libs/jquery/jquery-1.6.3.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js" type="text/javascript"></script>
+
+<!-- "our" code -->
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/stab.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+﻿BODY {
+	font-family: Open Sans;
+}
+.pick_me {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 33px;
+	line-height: 51px;
+	border-radius: 25.5px;
+	background-color: #f61466;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+#page2-content .pick_me {
+	position: relative;
+	margin-bottom: 30px;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+	/*bottom: 13px;*/
+}
+#map {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+#page2-content {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	bottom: 20px;
+	right: 20px;
+}
+
+#pick_ride {
+	margin-top: 30px;
+	color: #4a4a4a;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.item {
+	margin-top: 18px;
+	color: #bcc8cf;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.line {
+	height: 1px;
+	background-color: #d5dde0;
+}
+
+.l1 {
+	margin-top: 48px;
+}
+.l2 {
+	margin-bottom: 48px;
+}
+
+#total_cost {
+	line-height: 55px;
+	height: 55px;
+	color: #4a4a4a;
+	font-size: 16px;
+	position: relative;
+}
+
+#all {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#buy {
+	position: absolute;
+	right: 33px;
+	top: 18px;
+}
+
+.red {
+	color: #f61466;
+}
+
+h1{
+	padding: 30px;
+}

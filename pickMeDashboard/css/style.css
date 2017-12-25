@@ -1,0 +1,89 @@
+﻿BODY {
+	font-family: Open Sans;
+	/*background: #6fdddd;*/
+}
+#ff_title {
+	position: absolute;
+	font-size: 12px;
+	bottom: 24px;
+	left: 151px;
+	color: #828D97;
+}
+#ff_button {
+	position: absolute;
+	cursor: pointer;
+	bottom: 28px;
+	left: 121px;
+}
+#ffc {
+	fill: #828D97
+}
+.clicked #ffc {
+	fill: #f61466
+}
+#ff_button:hover #ffc {
+	fill: #f61466
+}
+#logo {
+	position: absolute;
+	top: 18px;
+	left: 18px;
+}
+.red {
+	color: #f61466;
+}
+.item {
+	margin-top: 30px;
+}
+#line {
+	height: 1px;
+	margin-left: 3px;
+	background-color: #d8d8d8;
+}
+#cost_s {
+	font-size: 14px;
+	line-height: 19px;
+}
+#cost_b {
+	font-size: 24px;
+	line-height: 33px;
+}
+#time {
+	position: absolute;
+	left: 30px;
+	bottom: 22px;
+	width: 77px;
+	line-height: 29px;
+	background-color: #f61466;
+	color: #fff;
+	text-align: center;
+}
+#map {
+	position: absolute;
+	top: 0px;
+	left: 320px;
+	bottom: 0px;
+	right: 0px;
+}
+#panel {
+	position: absolute;
+	width: 320px;
+	padding-left: 30px;
+	padding-right: 35px;
+	padding-top: 87px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	box-shadow: 0 0 10px #000;
+	font-size: 18px;
+	line-height: 24px;
+	box-sizing: border-box;
+}
+
+H1 {
+	font-size: 20px;
+}
+
+.bold {
+	font-weight: bold;
+}
